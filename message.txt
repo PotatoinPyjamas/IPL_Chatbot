@@ -1,0 +1,236 @@
+{
+  "currentIntent": {
+    "name": "intent-name",
+    "slots": {
+      "id": "value",
+      "season": "value",
+      "city": "value",
+      "date": "value",
+      "team1": "value",
+      "team2": "value",
+      "toss_winner": "value",
+      "toss_decision": "value",
+      "result": "value",
+      "dl_applied": "value",
+      "winner": "value",
+      "win_by_runs": "value",
+      "win_by_wickets": "value",
+      "player_of_match": "value",
+      "venue": "value",
+      "umpire1": "value",
+      "umpire2": "value",
+      "umpire3": "value"
+    },
+    "slotDetails": {
+      "id": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "season": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "city": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "date": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "team1": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "team2": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "toss_winner": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "toss_decision": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "result": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "dl_applied": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "winner": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "win_by_runs": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "win_by_wickets": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "player_of_match": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "venue": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "umpire1": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "umpire2": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      },
+      "umpire3": {
+        "resolutions": [
+          {
+            "value": "resolved value"
+          },
+          {
+            "value": "resolved value"
+          }
+        ],
+        "originalValue": "original text"
+      }
+    },
+    "confirmationStatus": "None, Confirmed, or Denied (intent confirmation, if configured)"
+  },
+  "bot": {
+    "name": "bot name",
+    "alias": "bot alias",
+    "version": "bot version"
+  },
+  "userId": "User ID specified in the POST request to Amazon Lex.",
+  "inputTranscript": "Text used to process the request",
+  "invocationSource": "FulfillmentCodeHook or DialogCodeHook",
+  "outputDialogMode": "Text or Voice, based on ContentType request header in runtime API request",
+  "messageVersion": "1.0"
+}
